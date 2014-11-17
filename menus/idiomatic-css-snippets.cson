@@ -6,17 +6,25 @@
       'command': 'idiomatic-css-snippets:toggle'
     }
   ]
-'menu': [
-  {
-    'label': 'Packages'
-    'submenu': [
-      'label': 'idiomatic-css-snippets'
-      'submenu': [
+"menu": [{
+  "label": "Packages",
+  "submenu": [
+    {
+      "label": "Idiomatic CSS",
+      "submenu": [
         {
-          'label': 'Toggle'
-          'command': 'idiomatic-css-snippets:toggle'
+          "label": "Section Comment Block",
+          "command": "idiomatic-css-snippets:section_comment_block"
+        },
+        {
+          "label": "Sub Section Comment Block",
+          "command": "idiomatic-css-snippets:sub_section_comment_block"
+        },
+        {
+          "label": "Doxygen Comment",
+          "command": "idiomatic-css-snippets:doxygen_comment"
         }
       ]
-    ]
-  }
-]
+    }
+  ]
+}]

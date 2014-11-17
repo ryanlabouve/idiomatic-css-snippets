@@ -3,8 +3,10 @@
   "main": "./lib/idiomatic-css-snippets",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "activationCommands": {
-    "atom-workspace": "idiomatic-css-snippets:toggle"
+  "activationCommandsz": {
+    "atom-workspace": "idiomatic-css-snippets:section_comment_block",
+    "atom-workspace": "idiomatic-css-snippets:sub_section_comment_block",
+    "atom-workspace": "idiomatic-css-snippets:doxygen_comment"
   },
   "repository": "https://github.com/atom/idiomatic-css-snippets",
   "license": "MIT",

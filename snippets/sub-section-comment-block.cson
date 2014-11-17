@@ -1,0 +1,7 @@
+".source.css":
+  "getAttribute":
+    "prefix": ";sscb"
+    "body": """
+/* {1:Sub-section comment block}
+   ========================================================================== */
+    ${2:attr}"""
